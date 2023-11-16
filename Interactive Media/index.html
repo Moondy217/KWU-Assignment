@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Filmania </title>
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Oswald:wght@700&display=swap');
+
+body {
+font-size: 120%;
+background-color: #ffffff;
+}
+
+#header {
+font-family: 'Oswald', sans-serif;
+text-align: center;
+}
+
+.result {
+font-family: 'Black Han Sans', sans-serif;
+font-size: 50px;
+}
+
+#main {
+text-align: center;
+margin-top: 100px;
+padding: 10px;
+background-image: url("images/indexfilm.jpg");
+background-repeat: repeat-y;
+}
+
+ul {
+text-align: center;
+border-top: 2px solid;
+border-bottom: 2px solid;
+}
+
+li {
+display: inline-block; 
+margin: 5px 5px 5px 5px;
+}
+
+table {
+border-collapse: collapse;
+width: 600px;
+height: 100px;
+border: 2px solid #000000;
+margin-bottom: 100px;
+}
+
+th, td {
+border: 2px solid #000000;
+padding: 5px;
+}
+
+a {
+color: #000000;
+text-decoration: none;
+padding: 6px 18px 6px 18px;
+}
+
+</style>
+</head>
+
+<body>
+ 
+<div id="header">
+<img src="images/Filmania.png" alt="The Main Logo" title="The Main Logo"/>
+    <ul>
+        <li><a href="index.html"> Main </a> </li>
+        <li><a href="Classic Film.html"> Classic Film </a> </li>
+	<li> <a href="Animation Film.html"> Animation Film</a> </li>
+	<li> <a href="Korean Film.html"> Korean Film </a> </li>
+	<li> <a href="Hero Film.html"> Hero Film </a> </li>
+    </ul>
+</div>
+
+
+<div id="main">
+<p class="result"> ▼ 한 눈에 보기 ▼ </p>
+<table align="center">
+<thead>
+  <tr>
+    <th></th>
+    <th>영화</th>
+    <th>OTT 플랫폼</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="5">Classic</td>
+    <td>12명의 성난 사람들</td>
+    <td>왓챠</td>
+  </tr>
+  <tr>
+    <td>싸이코</td>
+    <td>왓챠, 웨이브</td>
+  </tr>
+  <tr>
+    <td>이창</td>
+    <td>왓챠</td>
+  </tr>
+  <tr>
+    <td>욕망</td>
+    <td>왓챠</td>
+  </tr>
+  <tr>
+    <td>로마의 휴일</td>
+    <td>왓챠, 웨이브</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Ani</td>
+    <td>인사이드 아웃</td>
+    <td>디즈니+</td>
+  </tr>
+  <tr>
+    <td>주토피아</td>
+    <td>디즈니+</td>
+  </tr>
+  <tr>
+    <td>모노노케 히메</td>
+    <td>넷플릭스</td>
+  </tr>
+  <tr>
+    <td>언더 더 레드 후드</td>
+    <td>없음</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Korean</td>
+    <td>기생충</td>
+    <td>왓챠, 넷플릭스, 티빙</td>
+  </tr>
+  <tr>
+    <td>리틀 포레스트</td>
+    <td>넷플릭스</td>
+  </tr>
+  <tr>
+    <td>해어화</td>
+    <td>왓챠, 넷플릭스, 웨이브, 티빙</td>
+  </tr>
+  <tr>
+    <td>장화, 홍련</td>
+    <td>왓챠</td>
+  </tr>
+  <tr>
+    <td>추격자</td>
+    <td>왓챠, 넷플릭스, 티빙</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Hero</td>
+    <td>어메이징 스파이더맨 1</td>
+    <td>왓챠, 넷플릭스</td>
+  </tr>
+  <tr>
+    <td>어벤져스 : 엔드 게임</td>
+    <td>디즈니+</td>
+  </tr>
+  <tr>
+    <td>스파이더맨 : 노 웨이 홈</td>
+    <td>없음</td>
+  </tr>
+  <tr>
+    <td>다크 나이트</td>
+    <td>왓챠, 웨이브, 티빙</td>
+  </tr>
+</tbody>
+</table>
+
+<p> 이 페이지가 마음에 드십니까? </p>
+<form action="#">
+<input id="YES" type="radio" name="select" value="y" checked="checked"/>
+<label for="YES"> YES </label>
+<input id="NO" type="radio" name="select" value="n"/>
+<label for="NO"> NO </label>
+</form>
+</div>
+
+
+
+
+
+
+</body>
+</html>
