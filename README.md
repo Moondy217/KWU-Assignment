@@ -11,4 +11,5 @@ Data Science - 웹사이트에서 넷플릭스, 웨이브, 왓챠가 보유한 �
 Data Structure - BinarySearchTree 구현    
 Interactive Media - 영화 웹사이트 제작    
 Java - kiosk Project 진행    
-Moblie Programming - 영화 포스터 선택, 코멘트 작성 등 사용자 커스텀화 앱 화면 제작    
+Moblie Programming - 영화 포스터 선택, 코멘트 작성 등 사용자 커스텀화 앱 화면 제작  
+Server Programming - DB 테이블 생성 후 회원 등록, 조회 기능 구현
