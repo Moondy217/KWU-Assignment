@@ -133,7 +133,7 @@ st.image(image, caption='출처: 와이즈앱 ‘2023년 OTT 앱시장 동향 �
 st.title('')
 st.title('')
 st.subheader('OTT 사용률', divider='rainbow')
-st.title('왓챠 > 웨이브 >> 넷플릭스')
+st.title('넷플릭스 >> 웨이브 > 왓챠')
 st.title('')
 st.title('')
 
